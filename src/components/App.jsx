@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Education from './education';
 import General from './general'
+import Work from './practical';
 import '../styles/App.css'
 
 
@@ -22,6 +23,7 @@ function App() {
       <form onSubmit={submitFormHandler}>
         <General edit={editMode} />
         <Education edit={editMode} />
+        <Work edit={editMode} />
         <button type="submit">Save</button>
         <button type="button" onClick={editButtonHandler}>Edit</button>
       </form>
