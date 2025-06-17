@@ -1,0 +1,26 @@
+fieldset {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: start;
+}
+
+label {
+    font-weight: 600;
+    display: flex;
+    width: 100%;
+}
+
+input {
+    margin-left: 7px;
+}
+
+.info {
+    font-weight: 600;
+}
+
+.info span {
+    font-weight: 400;
+    margin-left: 7px;
+}
